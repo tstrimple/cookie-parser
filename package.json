@@ -1,0 +1,36 @@
+{
+  "name": "generic-cookie-parser",
+  "version": "0.0.1",
+  "description": "Generic (non-middleware) cookie parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tstrimple/cookie-parser.git"
+  },
+  "keywords": [
+    "cookie",
+    "express"
+  ],
+  "author": {
+    "name": "Timothy Strimple",
+    "email": "tim@tstrimple.com",
+    "url": "http://tstrimple.com",
+    "twitter": "https://twitter.com/tstrimple"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tstrimple/cookie-parser/issues"
+  },
+  "homepage": "https://github.com/tstrimple/cookie-parser",
+  "dependencies": {
+    "cookie": "^0.1.2",
+    "cookie-signature": "^1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.0",
+    "should": "^4.0.0"
+  }
+}
